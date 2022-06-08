@@ -1,4 +1,4 @@
-package com.company.Principles.Polymorphism;
+package com.company.Principles.Polymorphism.Method_Overloading;
 
 public class Case1 {
 

@@ -1,4 +1,4 @@
-package com.company.Principles.Polymorphism;
+package com.company.Principles.Polymorphism.Method_Overloading;
 
 /*
 Method Overloading is the Process in which the class has two or more methods
@@ -13,7 +13,7 @@ Case 3 :
     Changing Sequence of Parameters.
  */
 
-public class Overloading {
+public class Main {
     public static void main(String[] args) {
         Case1 obj1 = new Case1();
         System.out.println(obj1.sum(5,6));
@@ -23,11 +23,12 @@ public class Overloading {
         Case2 obj3 = new Case2();
         obj3.display("hello");
         Case2 obj4 = new Case2();
-        obj4.display(43);
+        obj4.display(43); //Here implicit type conversion is being performed
 
         Case3 obj5 = new Case3();
         obj5.display("hello",43);
         Case3 obj6 = new Case3();
         obj6.display(43,"hello");
+
     }
 }
