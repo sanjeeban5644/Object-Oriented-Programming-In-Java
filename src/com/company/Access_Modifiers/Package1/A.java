@@ -1,31 +1,17 @@
 package com.company.Access_Modifiers.Package1;
 
 public class A {
-    private String name;
-    protected int roll;
-    public float marks;
-    String dept;
+   private void display1(){
+       System.out.println("I am private in A");
+   }
 
-    public String getName() {
-        return name;
-    }
+   void display2(){
+       System.out.println("I am default in A");
+   }
 
-    public void setName(String name){
-        this.name = name;
-    }
+   protected void display3(){
+       System.out.println("I am protected in A");
+   }
 
-    A(int roll,float marks,String dept){
-        this.roll = roll;
-        this.marks=marks;
-        this.dept=dept;
-    }
-    public A(int roll,float marks){
-        this.roll = roll;
-        this.marks=marks;
-    }
-
-    public A(float marks){
-        this.marks=marks;
-    }
 
 }
