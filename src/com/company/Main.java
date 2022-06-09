@@ -9,4 +9,7 @@ public class Main {
         System.out.println("hello world");
         System.out.println(new Random().nextInt(5));
     }
+
+
+
 }
